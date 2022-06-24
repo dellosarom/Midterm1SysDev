@@ -14,13 +14,13 @@ public class TestUserprofile{
        Scanner sc = new Scanner(System.in);
  
           String temp1,temp2;
-          String[] temp3 = UserProfile.genres;
+          //String[] temp3 = UserProfile.genres;
           System.out.println("Enter Username: ");
           temp1 = sc.nextLine();
           System.out.print("Enter genre: ");
           temp2 = sc.nextLine();
           
-          System.out.println("Name" + temp1 + "Your Genres" + temp3);
+          System.out.println("Name" + temp1 + "Your Genres" + temp2);
                
    }
 }
